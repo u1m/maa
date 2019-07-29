@@ -1,0 +1,35 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    padding: 0.8rem;
+}
+
+.number {
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+    padding-right: 1.0rem;
+    vertical-align: text-bottom;
+}
+
+.number:after {
+    content: '.';
+}
+
+audio {
+    height: 3.5rem;
+}
+
+div.header {
+    margin-top: 4.0rem;
+    margin-bottom: 2.0rem;
+}
+
+div.words, div.word-pair, div.sentence {
+    font-size: 2.0rem;
+    margin-top: 2.0rem;
+    margin-bottom: 4.0rem;
+    padding-left: 1.0rem;
+}
